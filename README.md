@@ -1,6 +1,6 @@
 # Project Live Link
 
-[Portfolio](http://vaidhyanathansm.netlify.app/)
+
 
 ## Available Scripts
 
