@@ -95,7 +95,23 @@ export const DETAILS = {
   
       description: {
         para1:
-          "The application provides weather, celcius , Haze , Humidity & Wind Speed tips for maintaining the health properly.",
+          "The application is a clone of a G-mail.",
+        para2:
+          "The application is made completely user-friendly and has an amazing user-experience .",
+      },
+    },
+    {
+      id: 2,
+      title: "Notes App:",
+      link: "https://remarkable-empanada-ff9885.netlify.app/",
+      link1:"https://github.com/Kharthie/notefront",
+      link2:"https://github.com/Kharthie/noteback",
+      image:
+        "https://cdn4.iconfinder.com/data/icons/jetflat-2-multimedia-vol-6/60/0043_085_edit_mac_app_application_window_text_notes-512.png",
+  
+      description: {
+        para1:
+          "The application is like a notepad or notes-app. Which can store a information.",
         para2:
           "The application is made completely user-friendly and has an amazing user-experience .",
       },
