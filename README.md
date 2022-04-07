@@ -1,10 +1,9 @@
-# Project Live Link
 
-[Portfolio](http://vaidhyanathansm.netlify.app/)
+
 
 ## Available Scripts
 
-In the project directory, you can run:
+
 
 ### `npm start`
 
