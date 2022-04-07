@@ -1,0 +1,9 @@
+#follow {
+  background-color: lightsteelblue;
+  color: #fff;
+  height: 100%;
+  border-top: 0;
+  padding: 5rem 0 10rem;
+  margin-top: -1rem;
+  cursor: pointer;
+}
