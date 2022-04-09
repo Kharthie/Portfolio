@@ -67,7 +67,7 @@ class Main extends Component {
                   href="#"
                   onClick={this.scrollToAbout}
                 >
-                  .AbouT,
+                  AbouT
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -76,7 +76,7 @@ class Main extends Component {
                   href="#"
                   onClick={this.scrollToEducation}
                 >
-                  .EducatioN,
+                  EducatioN
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -85,7 +85,7 @@ class Main extends Component {
                   href="#"
                   onClick={this.scrollToSkills}
                 >
-                  .SkillS,
+                  SkillS
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -94,7 +94,7 @@ class Main extends Component {
                   href="#"
                   onClick={this.scrollToProjects}
                 >
-                  .ProjectS,
+                  ProjectS
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -103,7 +103,7 @@ class Main extends Component {
                   href="#"
                   onClick={this.scrollToExperience}
                 >
-                  .ExperiencE.
+                  ExperiencE
                 </NavLink>
               </NavItem>
             </Nav>

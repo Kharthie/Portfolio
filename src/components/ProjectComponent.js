@@ -65,6 +65,7 @@ class Projects extends Component {
             >
               View Project
             </button> 
+            
              <button className="view-projects view-projects--specs"
               style={{ borderRadius: "5px" , color:"black"}}
               onClick={() => this.onProjectClicked1(project.id)}

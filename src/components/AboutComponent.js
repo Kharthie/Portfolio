@@ -15,6 +15,8 @@ class About extends Component {
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-6" style={{ padding: "20px" }}>
+
+             <figure class="swing">
               <motion.img
                 initial={{ x: "-100vw" }}
                 animate={{ x: 0 }}
@@ -24,6 +26,9 @@ class About extends Component {
                 width="65%"
                 height="90%"
               />
+              <h4 className="profile-card">Profile-Image...</h4>
+              </figure>
+
             </div>
             <motion.div
               className="col-12 col-sm-6"
