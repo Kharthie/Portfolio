@@ -15,8 +15,8 @@
   background-color: rgb(46, 47, 52);
   background-image: linear-gradient(
     135deg,
-    rgb(221, 141, 141),
-    rgb(193, 223, 26)
+    rgb(241, 56, 56),
+    rgb(85, 46, 228)
   );
   color: #fff;
   height: 100%;
@@ -27,3 +27,6 @@
 section {
   padding: 5rem 0;
 }
+
+/* rgb(221, 141, 141),
+rgb(193, 223, 26) */
