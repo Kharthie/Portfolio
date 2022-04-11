@@ -86,7 +86,7 @@ export const DETAILS = {
   projects: [
     {
       id: 1,
-      title: "Gmail App:",
+      title: "GMAIL APP:",
       link: "https://famous-pastelito-760eb0.netlify.app/",
       link1:"https://github.com/Kharthie/gmail-front",
       link2:"https://github.com/Kharthie/gmailclonebe",
@@ -102,7 +102,23 @@ export const DETAILS = {
     },
     {
       id: 2,
-      title: "Notes App:",
+      title: "MEMORIES - BLOG APP:",
+      link: "https://beamish-douhua-b21885.netlify.app/posts",
+      link1:"https://github.com/Kharthie/memoriesfront",
+      link2:"https://github.com/Kharthie/memoriesback",
+      image:
+        "https://clickfirstmarketing.com/wp-content/uploads/Purpose-of-Blogging.jpeg",
+  
+      description: {
+        para1:
+          "The application is like a blogging site , we can post and do all functionalities in Blog website.",
+        para2:
+          "The application is made completely user-friendly and has an amazing user-experience .",
+      },
+    },
+    {
+      id: 3,
+      title: "NOTES APP:",
       link: "https://remarkable-empanada-ff9885.netlify.app/",
       link1:"https://github.com/Kharthie/notefront",
       link2:"https://github.com/Kharthie/noteback",
