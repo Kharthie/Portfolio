@@ -91,7 +91,7 @@ export const DETAILS = {
       link1:"https://github.com/Kharthie/amazonfrontend",
       link2:"https://github.com/Kharthie/amazonbackend",
       image:
-        "https://cdn.worldvectorlogo.com/logos/amazon-dark.svg",
+        "https://c.tenor.com/JDPHxCqgEd0AAAAC/amazon.gif",
   
       description: {
         para1:
@@ -107,7 +107,7 @@ export const DETAILS = {
       link1:"https://github.com/Kharthie/gmail-front",
       link2:"https://github.com/Kharthie/gmailclonebe",
       image:
-        "https://www.pngall.com/wp-content/uploads/12/Gmail-By-Google-PNG-Image.png",
+        "https://cdn.dribbble.com/users/2113992/screenshots/14510264/gmail_animation.gif",
   
       description: {
         para1:
@@ -123,7 +123,7 @@ export const DETAILS = {
       link1:"https://github.com/Kharthie/memoriesfront",
       link2:"https://github.com/Kharthie/memoriesback",
       image:
-        "https://www.onblastblog.com/wp-content/uploads/2017/08/blogger-logo.jpg",
+        "https://ansarshome.files.wordpress.com/2021/09/d3464a4351fdf340ccb6bb37c281381a.gif",
   
       description: {
         para1:
@@ -139,7 +139,7 @@ export const DETAILS = {
       link1:"https://github.com/Kharthie/notefront",
       link2:"https://github.com/Kharthie/noteback",
       image:
-        "https://cdn4.iconfinder.com/data/icons/jetflat-2-multimedia-vol-6/60/0043_085_edit_mac_app_application_window_text_notes-512.png",
+        "https://www.zohowebstatic.com/sites/default/files/mail/zc-notes-img.gif",
   
       description: {
         para1:
