@@ -46,7 +46,7 @@ class Footer extends Component {
                       MY RESUME{" "}
                     </a> */}
 
-                    <a href="https://drive.google.com/file/d/1VTt6dOuq03cqONqozKoid9dm3YAJH3jh/view?usp=sharing" target="_blank">
+                    <a href="https://drive.google.com/file/d/1REGdOqfZmAAewlDIHX_Mf3LbLzy2O0M8/view?usp=sharing" target="_blank">
                       MY RESUME{" "}
                     </a>
                     </li>

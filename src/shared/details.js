@@ -86,6 +86,22 @@ export const DETAILS = {
   projects: [
     {
       id: 1,
+      title: "AMAZON APP:",
+      link: "https://bespoke-phoenix-23072e.netlify.app/",
+      link1:"https://github.com/Kharthie/amazonfrontend",
+      link2:"https://github.com/Kharthie/amazonbackend",
+      image:
+        "https://cdn.worldvectorlogo.com/logos/amazon-dark.svg",
+  
+      description: {
+        para1:
+          "The application is a clone of a Amazon E-commerce website , we can select Product and do all functionalities in Amazon website.",
+        para2:
+          "The application is made completely user-friendly and has an amazing user-experience .",
+      },
+    },
+    {
+      id: 2,
       title: "GMAIL APP:",
       link: "https://famous-pastelito-760eb0.netlify.app/",
       link1:"https://github.com/Kharthie/gmail-front",
@@ -95,19 +111,19 @@ export const DETAILS = {
   
       description: {
         para1:
-          "The application is a clone of a G-mail.",
+          "The application is a clone of a G-mail, we can  do all functionalities in Gmail.",
         para2:
           "The application is made completely user-friendly and has an amazing user-experience .",
       },
     },
     {
-      id: 2,
+      id: 3,
       title: "MEMORIES - BLOG APP:",
       link: "https://beamish-douhua-b21885.netlify.app/posts",
       link1:"https://github.com/Kharthie/memoriesfront",
       link2:"https://github.com/Kharthie/memoriesback",
       image:
-        "https://clickfirstmarketing.com/wp-content/uploads/Purpose-of-Blogging.jpeg",
+        "https://www.onblastblog.com/wp-content/uploads/2017/08/blogger-logo.jpg",
   
       description: {
         para1:
@@ -117,7 +133,7 @@ export const DETAILS = {
       },
     },
     {
-      id: 3,
+      id: 4,
       title: "NOTES APP:",
       link: "https://remarkable-empanada-ff9885.netlify.app/",
       link1:"https://github.com/Kharthie/notefront",
