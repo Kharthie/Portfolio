@@ -20,13 +20,77 @@ class Skills extends Component {
             <h1 className="text-center">S k i l l s : </h1>
             <div className="row" style={{ marginTop: "30px" }}>
               {skills}
+              <div class="skills">
+                <div class="skills-bar">
+                  <h2>F R O N T - E N D </h2>
+                  <div class="bar">
+                    <div class="info">
+                      <span> H T M L </span>
+                    </div>
+                    <div class="progress-line">
+                      <span class="html"></span>
+                    </div>
+                    <div class="bar">
+                      <div class="info">
+                        <span> C S S </span>
+                      </div>
+                      <div class="progress-line">
+                        <span class="css"></span>
+                      </div>
+                      <div class="bar">
+                        <div class="info">
+                          <span> J A V A S C R I P T </span>
+                        </div>
+                        <div class="progress-line">
+                          <span class="mongo"></span>
+                        </div>
+
+                        <div class="bar">
+                          <div class="info">
+                            <span> R E A C T </span>
+                          </div>
+                          <div class="progress-line">
+                            <span class="javascript"></span>
+                          </div>
+                        </div>
+                        <h2>B A C K - E N D </h2>
+                        <div class="bar">
+                          <div class="info">
+                            <span> N O D E - J S </span>
+                          </div>
+                          <div class="progress-line">
+                            <span class="node"></span>
+                          </div>
+
+                          <div class="bar">
+                            <div class="info">
+                              <span> E X P R E S S </span>
+                            </div>
+                            <div class="progress-line">
+                              <span class="c"></span>
+                            </div>
+
+                            <div class="bar">
+                              <div class="info">
+                                <span> M O N G O - DB </span>
+                              </div>
+                              <div class="progress-line">
+                                <span class="javascript"></span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
-        <div class="progress-5"></div>
-
-        <div class="container-skill">
+        {/* <div class="progress-5"></div>
+          <div class="container-skill">
           <div class="col">
             <h2 class="titulo">Front - End</h2>
             <ul class="skill">
@@ -68,8 +132,7 @@ class Skills extends Component {
                 <span class="greenline joomla"></span>
                 <em>Express - 85%</em>
               </li>
-              {/* <li><span class="greenline blogger"></span><em>Blogger</em></li>
-      <li><span class="greenline tridion"></span><em>Tridion</em></li> */}
+               
             </ul>
           </div>
           <div class="col">
@@ -97,7 +160,7 @@ class Skills extends Component {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </>
     );
   }
