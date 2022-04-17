@@ -1,7 +1,6 @@
 import { Component } from "react";
 import "../css/Footer.css";
 
-
 class Footer extends Component {
   render() {
     return (
@@ -29,12 +28,12 @@ class Footer extends Component {
                   <div class="progress-3"></div>
                 </div>
                 <div class="footer-menu">
-                  <h1 class="footer-menu-name"> 
-                   <a>Click Here ⏬</a> 
+                  <h1 class="footer-menu-name">
+                    <a>Click Here ⏬</a>
                     {/* <a href="https://drive.google.com/file/d/1O1TzcbLtFYBEHf1oCwNjtbW4AUHt62U9/view" target="_blank">
                       RESUME{" "}
                     </a> */}
-                     </h1>
+                  </h1>
                   <ul id="menu-get-started" class="footer-menu-list">
                     <li
                       id="menu-item-173730"
@@ -46,9 +45,12 @@ class Footer extends Component {
                       MY RESUME{" "}
                     </a> */}
 
-                    <a href="https://drive.google.com/file/d/1REGdOqfZmAAewlDIHX_Mf3LbLzy2O0M8/view?usp=sharing" target="_blank">
-                      MY RESUME{" "}
-                    </a>
+                      <a
+                        href="https://drive.google.com/file/d/1REGdOqfZmAAewlDIHX_Mf3LbLzy2O0M8/view?usp=sharing"
+                        target="_blank"
+                      >
+                        MY RESUME{" "}
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -151,7 +153,7 @@ class Footer extends Component {
                 <p class="footer-copyright-text">
                   <a class="footer-copyright-link" target="_self">
                     {" "}
-                    ©2021-22. | Kharthie R | All rights reserved.{" "}
+                    ©2021-22. | Developed By... | Kharthie R.{" "}
                   </a>
                 </p>
               </div>

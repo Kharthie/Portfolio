@@ -12,6 +12,8 @@ class Follow extends Component {
           <h4>G i t H u b :</h4>
         </div>
         <br />
+        
+       
         <div className="container horizontal-links">
           <img
             style={{ width: "35px", height: "35px", margin: "5px" }}
@@ -22,6 +24,7 @@ class Follow extends Component {
             }
           />
           <br></br>
+      
 
           {/* <img
             style={{ width: "35px", height: "35px", margin: "5px" }}
