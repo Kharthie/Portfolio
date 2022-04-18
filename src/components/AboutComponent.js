@@ -26,7 +26,7 @@ class About extends Component {
                 width="65%"
                 height="90%"
               />
-              <h4 className="profile-card">Profile-image</h4>
+             
               </figure>
 
             </div>

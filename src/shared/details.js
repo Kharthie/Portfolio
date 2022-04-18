@@ -19,7 +19,7 @@ export const DETAILS = {
     para3:
       "I am a skilled MERN Stack  Developer with 20+ Mini-Projects successfully Deployed. I have the potential of converting ideas into working products. I am also highly skilled in HTML, CSS, Javascript & React. I have special interests in the field of  Front-end technology, Development Languages, Database, Basic design ability, Server & Working with API.",
     para4:
-      "I also read some Technical Articles during my free time on Internet. I am an active Open Source Contributor on GitHub.                                                          <Hello World/>",
+      "I also read some Technical Articles during my free time on Internet. I am an active Open Source Contributor on GitHub.                                                                             <Hello World/>",
   },
   education: {
     college: {
