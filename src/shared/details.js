@@ -119,7 +119,7 @@ export const DETAILS = {
     {
       id: 3,
       title: "MEMORIES - BLOG APP:",
-      link: "https://beamish-douhua-b21885.netlify.app/posts",
+      link: "https://gentle-raindrop-934e77.netlify.app/",
       link1:"https://github.com/Kharthie/memoriesfront",
       link2:"https://github.com/Kharthie/memoriesback",
       image:
