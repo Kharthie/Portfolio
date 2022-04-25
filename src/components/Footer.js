@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <>
-        <div class="pg-footer">
+     <div class="pg-footer">
           <footer class="footer">
             <svg
               class="footer-wave-svg"

@@ -10,6 +10,10 @@ export const DETAILS = {
       link: "https://github.com/Kharthie",
       image: "assets/images/github.svg",
     },
+    linkedin: {
+      link: "https://www.linkedin.com/in/kharthie-ramakrishnan-914589220/",
+      image: "assets/images/linkedin.svg",
+    },
   },
   profile_image: "assets/images/profile_image.jpeg",
   about_me: {

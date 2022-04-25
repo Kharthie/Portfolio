@@ -9,12 +9,11 @@ class Follow extends Component {
     return (
       <section id="follow">
         <div className="container text-center">
-          <h4>G i t H u b :</h4>
+          <h4>C h e c k - M y...,</h4>
         </div>
         <br />
-        
-       
         <div className="container horizontal-links">
+        <h4>GitHub</h4>
           <img
             style={{ width: "35px", height: "35px", margin: "5px" }}
             src={this.props.details.profile_links.github.image}
@@ -24,16 +23,17 @@ class Follow extends Component {
             }
           />
           <br></br>
-      
-
-          {/* <img
+          <div>---</div>
+          <img
             style={{ width: "35px", height: "35px", margin: "5px" }}
-            src={this.props.details.profile_links.email.image}
+            src={this.props.details.profile_links.linkedin.image}
             alt="email"
             onClick={() =>
-              this.openLink(this.props.details.profile_links.email)
+              this.openLink(this.props.details.profile_links.linkedin)
             }
-          />  */}
+          />  
+          <br></br>
+          <h4>linkedin</h4>
         </div>
       </section>
     );
