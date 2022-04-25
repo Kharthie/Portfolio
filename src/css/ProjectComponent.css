@@ -44,10 +44,10 @@ section {
   margin-left: 500px;
   margin-top: 10px;
   /* border-radius:20px; */
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 100px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 100px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 250px;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 250px;
 
   -webkit-mask: linear-gradient(90deg, #000 70%, #0000 0) 0/20%;
   background: linear-gradient(#000 0 0) 0/0% no-repeat #ddd;

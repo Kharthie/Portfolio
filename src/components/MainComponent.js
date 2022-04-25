@@ -130,7 +130,10 @@ class Main extends Component {
               transition={{ delay: 1.3, duration: 1 }}
             >
               H!<span class="wave">👋</span> .,<br></br>This is{" "}
-              <span className="text-color-main-name">Kharthie R ..,</span>
+              <span className="text-color-main-name">
+               Khárthìe R ..,
+                {/* Ķĥářţĥìě..., */}
+                </span>
               <br />I am a <span className="text-color-main-name1">🍃M</span>
               ongo-Db ,<br></br>
               <span className="text-color-main-name2">
@@ -149,7 +152,7 @@ class Main extends Component {
               <div class="typewriter">
 
   
-  <p class="typing-erase">Stack Developer...,</p>
+  <p class="typing-erase">Stack-Developer...,</p>
 </div>
             </motion.h1>
             <br />
