@@ -28,20 +28,20 @@ export const DETAILS = {
   education: {
     college: {
       name: "S.R.V Engineering College",
-      course: "B.E Electronics & communication  Engineering",
+      course: "B.E-Electronics & communication  Engineering",
       grade: ">8.5",
       timeline: "2017-2021",
       image: "assets/images/college.jpg",
     },
     higher_secondary_school: {
       name: "Sri Bharathidasan Matric Hr Sec School",
-      course: "Bio Maths",
+      course: "Bio-Maths",
       grade: "87.2 %",
       timeline: "2016-2017",
       image: "assets/images/high_sec_school.jpg",
     },
     secondary_school: {
-      name: "Ashoka Sishu Vihar Matric School",
+      name: "Ashoka Sishu Vihar Matriculation School",
       grade: "9.3",
       timeline: "2014-2015",
       image: "assets/images/sec_school.jpeg",
