@@ -92,15 +92,15 @@ class Projects extends Component {
 
           {projects}
           <div className="text-center">
-            <button
+            <div
               style={{ marginTop: "30px", borderRadius: "5px",backgroundColor:"black" }}
               className="view-projects view-projects--specs"
-             onClick={() =>
-              this.openLink(this.props.details.profile_links.github)
-            }
+            //  onClick={() =>
+            //   this.openLink(this.props.details.profile_links.github)
+            // }
             >
-             <h4 className="more"> More Projects</h4>
-            </button> 
+             <h4 className="more">For More Projects Visit My GitHub.</h4>
+            </div> 
           
 
           </div>

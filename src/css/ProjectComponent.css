@@ -12,7 +12,7 @@
   -o-border-image: linear-gradient(135deg, rgb(75, 74, 78), rgb(75, 74, 78));
   border-image: linear-gradient(135deg, rgb(75, 74, 78), rgb(75, 74, 78));
   border-image-slice: 1;
-  cursor: pointer;
+  /* cursor: pointer; */
   transform: scale(1.05);
 }
 .view-projects {
@@ -62,11 +62,11 @@ section {
   color: #000;
   margin-left: 420px;
 }
-.text-center,
+/* .text-center,
 .h4,
 .col-12s col-sm-6{
   color: rgb(240, 218, 218);
-}
+} */
 
 /* .button {
   background-color: lightpink; 

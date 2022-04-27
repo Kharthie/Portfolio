@@ -45,6 +45,7 @@ class About extends Component {
               <p>{this.props.details.about_me.para2}</p>
               <p>{this.props.details.about_me.para3}</p>
               <p>{this.props.details.about_me.para4}</p>
+              <p>{this.props.details.about_me.para5}</p>
             </motion.div>
           </div>
         </div>
@@ -79,7 +80,7 @@ class About extends Component {
                     >
                       <b style={{ fontSize: "30px" }}>5+ Projects & 20+ Mini Projects</b>
                       <br />
-                      Successfully Deployed.
+                      are Successfully Deployed.
                     </p>
                   </a>
                 </CardContent>
@@ -104,16 +105,30 @@ class About extends Component {
               >
                 <CardContent>
                   <a style={{ color: "white", textDecoration: "none" }}>
+                  <p
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        flexDirection: "column",
+                      }}
+                    >
+                      <b style={{ fontSize: "30px" }}>Click to view</b>
+                      <br />
+                      <div>▼</div>
+                    </p>
+                     <div className="resume-link">
+                    <a href="https://drive.google.com/file/d/1Iu3EmOC0fI7C1--uMpxHBkdwviNiILvo/view?usp=sharing" target="_blank">
+                      M Y - R E S U M E{" "}
+                    </a>
+                    </div>
+
                     <div class="progress-9">
                     
                     </div><br></br>
                     {/* <a href="https://drive.google.com/file/d/1O1TzcbLtFYBEHf1oCwNjtbW4AUHt62U9/view" target="_blank">
                       MY RESUME{" "}
                     </a> */}
-
-                    <a href="https://drive.google.com/file/d/1REGdOqfZmAAewlDIHX_Mf3LbLzy2O0M8/view?usp=sharing" target="_blank">
-                      MY RESUME{" "}
-                    </a>
+                   
                   </a>
                 </CardContent>
               </Card>

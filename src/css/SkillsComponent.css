@@ -5,7 +5,8 @@
 }
 
 body {
-  background: #969995;
+  background: lightslategrey;
+  /* background: #969995; */
   /* font: 12px normal Arial; */
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   color: #fff;

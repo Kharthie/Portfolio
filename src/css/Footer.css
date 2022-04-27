@@ -6,7 +6,8 @@
   font-family: "Khand", sans-serif;
 }
 .footer {
-  background-color: #0ea5ca;
+  /* background-color: #0ea5ca; */
+  background-color: lightseagreen;
 }
 .footer-wave-svg {
   background-color: transparent;
@@ -114,6 +115,7 @@
   letter-spacing: 0.1em;
   line-height: 18px;
   margin-bottom: 0;
+  margin-right: 500px;
   margin-top: 0;
   text-transform: uppercase;
 }
@@ -267,8 +269,10 @@
 }
 
 .progress-3 {
-  width: 235px;
+  width: 435px;
   height: 20px;
+  margin-top: 200px;
+  margin-left: 250px;
   border-radius: 20px;
   background: repeating-linear-gradient(135deg, #f03355 0 10px, #ffa516 0 20px)
       0/0% no-repeat,

@@ -23,12 +23,17 @@ section {
   cursor: pointer;
 }
 
+.resume-link{
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
 .progress-9 {
   --r1: 154%;
   --r2: 68.5%;
   width: 60px;
-  margin-top: 20px;
-  margin-left: 20px;
+  /* margin-top: 5px; */
+  margin-left: 60px;
   height: 60px;
   border-radius: 50%;
   background: radial-gradient(
