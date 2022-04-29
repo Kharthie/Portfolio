@@ -103,8 +103,16 @@ class Projects extends Component {
             </div> 
           
 
+
           </div>
-          <div class="progress-4"></div>
+          <img 
+          style={{
+            width:"150px",
+            margin: "10px",
+            marginLeft: "480px",
+          }}
+          src="https://thumbs.gfycat.com/HeavenlyCoordinatedGermanwirehairedpointer-size_restricted.gif"></img>
+          {/* <div class="progress-4"></div> */}
         </div>
       </section> 
 
