@@ -24,7 +24,8 @@
   align-items: center;
   border-bottom: 0;
   /* background: rgb(218, 10, 96);  */
-    background: #61dafb;
+    /* background: #61dafb; */
+    background: lightsteelblue;
 
   font-weight: 400;
   color: #27292d;
@@ -100,7 +101,8 @@
   }
 }
 .text-color-main-name1{
-  color: lightslategray;
+  /* color: lightslategray; */
+  color: rgb(14, 153, 14);
 }
 .text-color-main-name2{
   color: plum;
@@ -112,7 +114,8 @@
   color: green;
 }
 .dot{
-  color: #61dafb;
+  /* color: #61dafb; */
+  color: lightsteelblue;
 }
 
 /* body {
