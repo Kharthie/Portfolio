@@ -117,7 +117,7 @@ class About extends Component {
                       <div>▼</div>
                     </p>
                      <div className="resume-link">
-                    <a href="https://drive.google.com/file/d/1Iu3EmOC0fI7C1--uMpxHBkdwviNiILvo/view?usp=sharing" target="_blank">
+                    <a href="https://drive.google.com/file/d/1PeIxReI4cmWwNnWZuQ228Syan07tNfMU/view?usp=sharing" target="_blank">
                       M Y - R E S U M E{" "}
                     </a>
                     </div>

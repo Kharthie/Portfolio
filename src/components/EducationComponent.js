@@ -147,9 +147,20 @@ class Education extends Component {
                   </p>
                 </CardContent>
               </Card>
+              
             </div>
+            
           </div>
+          
         </div>
+        <img
+           style={{
+             margin:"10px",
+            width: "200px",
+            height: "200px",
+            marginLeft: "600px",
+          }}
+           src="https://static.wixstatic.com/media/94d288_9e9278611d2f4e2daddeb9b86b2ed08d~mv2.gif"></img>
       </section>
     );
   }
