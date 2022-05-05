@@ -32,7 +32,7 @@ class Education extends Component {
                     </Typography>
                   }
                 />
-                <CardMedia
+                {/* <CardMedia
                   component="img"
                   style={{
                     height: "60px",
@@ -40,7 +40,13 @@ class Education extends Component {
                   }}
                   image="/assets/images/college.png"
                   alt="Graduation"
-                />
+                /> */}
+                <img 
+                 style={{
+                  height: "60px",
+                  width: "60px",
+                }}
+                src="https://i.pinimg.com/originals/b8/51/5b/b8515b3a98b5cd2250448b32b794c2b4.gif"></img>
                 <CardContent>
                   <p>
                     <b>Course : </b>
@@ -87,9 +93,10 @@ class Education extends Component {
                     height: "60px",
                     width: "60px",
                   }}
-                  image="/assets/images/high_school.png"
+                  image="/assets/images/school.png"
                   alt="Graduation"
                 />
+               
                 <CardContent>
                   <p>
                     <b>Course : </b>
@@ -127,7 +134,7 @@ class Education extends Component {
                     </Typography>
                   }
                 />
-                <CardMedia
+                {/* <CardMedia
                   component="img"
                   style={{
                     height: "60px",
@@ -135,7 +142,13 @@ class Education extends Component {
                   }}
                   image="/assets/images/school.png"
                   alt="Graduation"
-                />
+                /> */}
+                <img
+                style={{
+                  height: "60px",
+                  width: "60px",
+                }}
+                src="https://www.pinclipart.com/picdir/big/121-1218826_school-house-clipart-school-clip-art-little-red.png"></img>
                 <CardContent>
                   <p>
                     <b>CGPA : </b>
