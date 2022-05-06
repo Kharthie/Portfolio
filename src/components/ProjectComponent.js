@@ -54,7 +54,7 @@ class Projects extends Component {
             <h4>{project.title}</h4>
             <p className="text-justify">{project.description.para1}</p>
             <p className="text-justify">{project.description.para2}</p>
-            --<button
+            ←<button
               className="view-projects view-projects--specs"
               style={{ borderRadius: "5px", color: "black" }}
               onClick={() => this.onProjectClicked(project.id)}
@@ -74,7 +74,7 @@ class Projects extends Component {
               onClick={() => this.onProjectClicked2(project.id)}
             >
               Back-end
-            </button>--
+            </button>→	
           </div>
         </div>
       );

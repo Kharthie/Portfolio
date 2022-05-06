@@ -113,11 +113,15 @@ class About extends Component {
                       }}
                     >
                       <b style={{ fontSize: "30px" }}>Click to view</b>
-                      <br />
-                      <div>▼</div>
+                      
+                      <div>
+                      <span class="m_scroll_arrows unu"></span>
+			<span class="m_scroll_arrows doi"></span>
+			<span class="m_scroll_arrows trei"></span>
+                      </div>
                     </p>
                      <div className="resume-link">
-                    <a href="https://drive.google.com/file/d/1PeIxReI4cmWwNnWZuQ228Syan07tNfMU/view?usp=sharing" target="_blank">
+                    <a href="https://drive.google.com/file/d/1TKPSIw2i0BQ0Y0AgM7eazeWglU8cluWd/view?usp=sharing" target="_blank">
                       M Y - R E S U M E{" "}
                     </a>
                     </div>

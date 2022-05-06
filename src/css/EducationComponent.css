@@ -31,4 +31,6 @@
 section {
   padding: 5rem 0;
 }
-
+.card-style{
+ cursor: pointer;
+}

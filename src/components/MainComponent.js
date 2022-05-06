@@ -63,11 +63,12 @@ class Main extends Component {
             <Nav className="m-auto" navbar>
               <NavItem>
                 <NavLink
+                className="about"
                   style={{ color: "white" }}
                   href="#"
                   onClick={this.scrollToAbout}
                 >
-                  AbouT
+                  <a href="">AbouT</a>
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -76,7 +77,7 @@ class Main extends Component {
                   href="#"
                   onClick={this.scrollToEducation}
                 >
-                  EducatioN
+                  <a href="">EducatioN</a>
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -85,7 +86,7 @@ class Main extends Component {
                   href="#"
                   onClick={this.scrollToSkills}
                 >
-                  SkillS
+                  <a href="">SkillS</a>
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -94,7 +95,7 @@ class Main extends Component {
                   href="#"
                   onClick={this.scrollToProjects}
                 >
-                  ProjectS
+                  <a href="">ProjectS</a>
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -103,13 +104,13 @@ class Main extends Component {
                   href="#"
                   onClick={this.scrollToExperience}
                 >
-                  ExperiencE
+                  <a href="">ExperiencE</a>
                 </NavLink>
               </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
-        {/* Other Child Components */}
+        
         <br />
         <br />
         <motion.section

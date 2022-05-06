@@ -22,7 +22,7 @@ class Skills extends Component {
               {skills}
               <div class="skills">
                 <div class="skills-bar">
-                  <h2>F R O N T - E N D </h2>
+                  <h2>. . . F r o n t - E n d . . .</h2>
                   <div class="bar">
                     <div class="info">
                       <span> H T M L </span>
@@ -53,7 +53,7 @@ class Skills extends Component {
                             <span class="javascript"></span>
                           </div>
                         </div>
-                        <h2>B A C K - E N D </h2>
+                        <h2>. . . B a c k - E n d . . .</h2>
                         <div class="bar">
                           <div class="info">
                             <span> N O D E - J S </span>

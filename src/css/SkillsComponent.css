@@ -69,7 +69,6 @@ h2.programas {
 .skills-bar .bar .progress-line {
   position: relative;
   height: 10px;
-  width: 1000px;
   background: #f0f0f0;
   border-radius: 10px;
   transform: scaleX(0);
