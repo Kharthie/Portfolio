@@ -59,6 +59,8 @@ class Projects extends Component {
               style={{ borderRadius: "5px", color: "black" }}
               onClick={() => this.onProjectClicked(project.id)}
             >
+              
+              <img src="https://img.icons8.com/ios-glyphs/30/000000/project.png"/>
               View Project
             </button>---
             <button
@@ -66,6 +68,7 @@ class Projects extends Component {
               style={{ borderRadius: "5px", color: "black" }}
               onClick={() => this.onProjectClicked1(project.id)}
             >
+             <img src="https://img.icons8.com/material-rounded/24/000000/github.png"/>
               Front-end
             </button>---
             <button
@@ -73,6 +76,7 @@ class Projects extends Component {
               style={{ borderRadius: "5px", color: "black" }}
               onClick={() => this.onProjectClicked2(project.id)}
             >
+              <img src="https://img.icons8.com/material-rounded/24/000000/github.png"/>
               Back-end
             </button>→	
           </div>
