@@ -39,7 +39,7 @@ class About extends Component {
               animate={{ x: 0 }}
               transition={{ type: "spring", delay: 0.8, stiffness: 40 }}
             >
-              <h1>About Me...,</h1>
+             <div className="aboutme"> <h1>About Me...,</h1></div>
               <br />
               <h5>{this.props.details.about_me.para1}</h5>
               <p>{this.props.details.about_me.para2}</p>

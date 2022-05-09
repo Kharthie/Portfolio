@@ -27,6 +27,22 @@ section {
   margin-left: 30px;
   margin-bottom: 20px;
 }
+.aboutme{
+  background-image: 
+  linear-gradient(
+    transparent 0%,
+    transparent 90%,
+    rgb(252, 236, 244) 90%,
+    rgb(255, 244, 250) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+}
+.aboutme:hover{
+  background-size: 100% 100%;
+  background-position-x: left;
+}
 
 .progress-9 {
   --r1: 154%;

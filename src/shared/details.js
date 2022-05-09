@@ -99,9 +99,10 @@ export const DETAILS = {
         "https://c.tenor.com/JDPHxCqgEd0AAAAC/amazon.gif",
   
       description: {
-        para1:
-          "The application is a clone of a Amazon E-commerce website , we can select Product and do all functionalities in Amazon website.",
+        para1:"USERNAME : username@gmail.com  ,  PASSWORD : password",
         para2:
+          "The application is a clone of a Amazon E-commerce website , we can select Product and do all functionalities in Amazon website.",
+        para3:
           "The application is made completely user-friendly and has an amazing user-experience .",
       },
     },
@@ -115,9 +116,10 @@ export const DETAILS = {
         "https://cdn.dribbble.com/users/2113992/screenshots/14510264/gmail_animation.gif",
   
       description: {
-        para1:
-          "The application is a clone of a G-mail, we can  do all functionalities in Gmail.",
+        para1:"USERNAME : username@gmail.com  ,  PASSWORD : password",
         para2:
+          "The application is a clone of a G-mail, we can  do all functionalities in Gmail.",
+        para3:
           "The application is made completely user-friendly and has an amazing user-experience .",
       },
     },
@@ -131,9 +133,10 @@ export const DETAILS = {
         "https://ansarshome.files.wordpress.com/2021/09/d3464a4351fdf340ccb6bb37c281381a.gif",
   
       description: {
-        para1:
-          "The application is like a blogging site , we can post and do all functionalities in Blog website.",
+        para1:"USERNAME : username2@gmail.com  ,  PASSWORD : password",
         para2:
+          "The application is like a blogging site , we can post and do all functionalities in Blog website.",
+        para3:
           "The application is made completely user-friendly and has an amazing user-experience .",
       },
     },
@@ -147,9 +150,10 @@ export const DETAILS = {
         "https://www.zohowebstatic.com/sites/default/files/mail/zc-notes-img.gif",
   
       description: {
-        para1:
-          "The application is like a notepad or notes-app. Which can store a information.",
+        para1:"USERNAME : username1@gmail.com  ,  PASSWORD : password",
         para2:
+          "The application is like a notepad or notes-app. Which can store a information.",
+        para3:
           "The application is made completely user-friendly and has an amazing user-experience .",
       },
     },
