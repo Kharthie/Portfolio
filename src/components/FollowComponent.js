@@ -9,7 +9,7 @@ class Follow extends Component {
     return (
       <section id="follow">
         <div className="container text-center">
-          <h4>C h e c k - M y ...,</h4>
+          <h4>V i e w - M y ...,</h4>
         </div>
         <br />
         <div className="container horizontal-links">
