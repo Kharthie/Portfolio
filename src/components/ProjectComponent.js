@@ -64,31 +64,34 @@ class Projects extends Component {
               <img src="https://img.icons8.com/ios-glyphs/30/000000/project.png"/>
               View Project
             </button>--- */}
-            ←<button
+            ←
+            <button
               className="view-projects view-projects--specs"
               style={{ borderRadius: "5px", color: "black" }}
               onClick={() => this.onProjectClicked1(project.id)}
             >
-             <img src="https://img.icons8.com/material-rounded/24/000000/github.png"/>
+              <img src="https://img.icons8.com/material-rounded/24/000000/github.png" />
               Front-end
-            </button>---
+            </button>
+            ---
             <button
               className="view-projects view-projects--specs"
               style={{ borderRadius: "5px", color: "black" }}
               onClick={() => this.onProjectClicked(project.id)}
             >
-              
-              <img src="https://img.icons8.com/ios-glyphs/30/000000/project.png"/>
+              <img src="https://img.icons8.com/ios-glyphs/30/000000/project.png" />
               View Project
-            </button>---
+            </button>
+            ---
             <button
               className="view-projects view-projects--specs"
               style={{ borderRadius: "5px", color: "black" }}
               onClick={() => this.onProjectClicked2(project.id)}
             >
-              <img src="https://img.icons8.com/material-rounded/24/000000/github.png"/>
+              <img src="https://img.icons8.com/material-rounded/24/000000/github.png" />
               Back-end
-            </button>→	
+            </button>
+            →
           </div>
         </div>
       );
@@ -99,7 +102,7 @@ class Projects extends Component {
         <section id="projects">
           <div className="container">
             <h1 className="text-center1">P r o j e c t s :</h1>
- 
+
             {projects}
             <div className="text-center">
               <div

@@ -20,10 +20,12 @@ class Skills extends Component {
             <h1 className="text-center">S k i l l s : </h1>
             <div className="row" style={{ marginTop: "30px" }}>
               {skills}
-              
               <div class="skills">
                 <div class="skills-bar">
-                  <h2>. . . F r o n t - E n d . . .</h2>
+                  <div className="fntend">
+                    <h2>. . . F r o n t - E n d . . .</h2>
+                  </div>
+
                   <div class="bar">
                     <div class="info">
                       <span> H T M L </span>
@@ -54,7 +56,10 @@ class Skills extends Component {
                             <span class="javascript"></span>
                           </div>
                         </div>
-                        <h2>. . . B a c k - E n d . . .</h2>
+                        <div className="fntend">
+                          <h2>. . . B a c k - E n d . . .</h2>
+                        </div>
+
                         <div class="bar">
                           <div class="info">
                             <span> N O D E - J S </span>
@@ -79,13 +84,13 @@ class Skills extends Component {
                                 <span class="javascript"></span>
                               </div>
                               <img
-              style={{
-                width: "150px",
-                margin: "10px",
-                marginLeft: "480px",
-              }}
-              src="https://bera-journals.onlinelibrary.wiley.com/ux3/releasedAssets/images/spinner.gif"
-            ></img>
+                                style={{
+                                  width: "150px",
+                                  margin: "10px",
+                                  marginLeft: "480px",
+                                }}
+                                src="https://bera-journals.onlinelibrary.wiley.com/ux3/releasedAssets/images/spinner.gif"
+                              ></img>
                             </div>
                           </div>
                         </div>

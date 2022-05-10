@@ -20,11 +20,7 @@ import "../css/MainComponent.css";
 import { motion } from "framer-motion";
 
 class Main extends Component {
-
- 
-
   constructor(props) {
-    
     super(props);
     this.state = {
       details: DETAILS,
@@ -63,7 +59,7 @@ class Main extends Component {
             <Nav className="m-auto" navbar>
               <NavItem>
                 <NavLink
-                className="about"
+                  className="about"
                   style={{ color: "white" }}
                   href="#"
                   onClick={this.scrollToAbout}
@@ -110,7 +106,7 @@ class Main extends Component {
             </Nav>
           </Collapse>
         </Navbar>
-        
+
         <br />
         <br />
         <motion.section
@@ -132,9 +128,9 @@ class Main extends Component {
             >
               H!<span class="wave">👋</span> .,<br></br>This is{" "}
               <span className="text-color-main-name">
-               Khárthìe R ..,
+                Khárthìe R ..,
                 {/* Ķĥářţĥìě..., */}
-                </span>
+              </span>
               <br />I am a <span className="text-color-main-name1">🍃M</span>
               ongo-Db ,<br></br>
               <span className="text-color-main-name2">
@@ -151,10 +147,8 @@ class Main extends Component {
               ode.Js ,<br></br>
               {/* Stack Developer..., */}
               <div class="typewriter">
-
-  
-  <p class="typing-erase">Stack-Developer...,</p>
-</div>
+                <p class="typing-erase">Stack-Developer...,</p>
+              </div>
             </motion.h1>
             <br />
             <br />
@@ -173,7 +167,7 @@ class Main extends Component {
         <div ref={this.aboutRef}>
           <About details={this.state.details} />
         </div>
-       
+
         <div ref={this.skillsRef}>
           <Skills details={this.state.details} />
         </div>

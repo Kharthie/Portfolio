@@ -15,20 +15,17 @@ class About extends Component {
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-6" style={{ padding: "20px" }}>
-
-             <figure class="swing">
-              <motion.img
-                initial={{ x: "-100vw" }}
-                animate={{ x: 0 }}
-                transition={{ delay: 0.5, type: "spring", stiffness: 40 }}
-                src={this.props.details.profile_image}
-                alt="Profile"
-                width="65%"
-                height="90%"
-              />
-             
+              <figure class="swing">
+                <motion.img
+                  initial={{ x: "-100vw" }}
+                  animate={{ x: 0 }}
+                  transition={{ delay: 0.5, type: "spring", stiffness: 40 }}
+                  src={this.props.details.profile_image}
+                  alt="Profile"
+                  width="65%"
+                  height="90%"
+                />
               </figure>
-
             </div>
             <motion.div
               className="col-12 col-sm-6"
@@ -39,7 +36,10 @@ class About extends Component {
               animate={{ x: 0 }}
               transition={{ type: "spring", delay: 0.8, stiffness: 40 }}
             >
-             <div className="aboutme"> <h1>About Me...,</h1></div>
+              <div className="aboutme">
+                {" "}
+                <h1>About Me...,</h1>
+              </div>
               <br />
               <h5>{this.props.details.about_me.para1}</h5>
               <p>{this.props.details.about_me.para2}</p>
@@ -78,7 +78,9 @@ class About extends Component {
                         flexDirection: "column",
                       }}
                     >
-                      <b style={{ fontSize: "30px" }}>5+ Projects & 20+ Mini Projects</b>
+                      <b style={{ fontSize: "30px" }}>
+                        5+ Projects & 20+ Mini Projects
+                      </b>
                       <br />
                       are Successfully Deployed.
                     </p>
@@ -105,7 +107,7 @@ class About extends Component {
               >
                 <CardContent>
                   <a style={{ color: "white", textDecoration: "none" }}>
-                  <p
+                    <p
                       style={{
                         display: "flex",
                         alignItems: "center",
@@ -113,26 +115,27 @@ class About extends Component {
                       }}
                     >
                       <b style={{ fontSize: "30px" }}>Click to view</b>
-                      
+
                       <div>
-                      <span class="m_scroll_arrows unu"></span>
-			<span class="m_scroll_arrows doi"></span>
-			<span class="m_scroll_arrows trei"></span>
+                        <span class="m_scroll_arrows unu"></span>
+                        <span class="m_scroll_arrows doi"></span>
+                        <span class="m_scroll_arrows trei"></span>
                       </div>
                     </p>
-                     <div className="resume-link">
-                    <a href="https://drive.google.com/file/d/1C_r_VAtF2TguL-JctHl3YgC6xDzG33zw/view?usp=sharing" target="_blank">
-                      M Y - R E S U M E{" "}
-                    </a>
+                    <div className="resume-link">
+                      <a
+                        href="https://drive.google.com/file/d/1C_r_VAtF2TguL-JctHl3YgC6xDzG33zw/view?usp=sharing"
+                        target="_blank"
+                      >
+                        M Y - R E S U M E{" "}
+                      </a>
                     </div>
 
-                    <div class="progress-9">
-                    
-                    </div><br></br>
+                    <div class="progress-9"></div>
+                    <br></br>
                     {/* <a href="https://drive.google.com/file/d/1O1TzcbLtFYBEHf1oCwNjtbW4AUHt62U9/view" target="_blank">
                       MY RESUME{" "}
                     </a> */}
-                   
                   </a>
                 </CardContent>
               </Card>

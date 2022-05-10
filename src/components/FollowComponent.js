@@ -13,7 +13,7 @@ class Follow extends Component {
         </div>
         <br />
         <div className="container horizontal-links">
-        <h4>GitHub</h4>
+          <h4>GitHub</h4>
           <img
             style={{ width: "35px", height: "35px", margin: "5px" }}
             src={this.props.details.profile_links.github.image}
@@ -31,7 +31,7 @@ class Follow extends Component {
             onClick={() =>
               this.openLink(this.props.details.profile_links.linkedin)
             }
-          />  
+          />
           <br></br>
           <h4>linkedin</h4>
         </div>

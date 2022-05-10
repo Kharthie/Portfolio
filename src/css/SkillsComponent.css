@@ -30,6 +30,23 @@ h2.plataformas {
   color: #9acd32;
   text-shadow: 1px 1px 5px #000, 0 0 10px #9acd32, 0 0 20px #9acd32;
 }
+.fntend{
+  background-image: 
+  linear-gradient(
+    transparent 0%,
+    transparent 90%,
+    rgb(102, 91, 96) 90%,
+    rgb(133, 120, 127) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+}
+.fntend:hover{
+  background-size: 100% 100%;
+  background-position-x: left;
+}
+
 
 h2.programas {
   border: 1px solid #ec0aa1;
@@ -125,7 +142,7 @@ h2.programas {
   right: 0;
   top: -14px;
   width: 0;
-  border: 10px solid transparent;
+  border: 15px solid transparent;
   border-bottom-width: 0px;
   border-right-width: 0px;
   border-top-style: #f0f0f0;

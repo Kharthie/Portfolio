@@ -24,7 +24,7 @@ export const DETAILS = {
       "I am a skilled MERN Stack  Developer with 20+ Mini-Projects successfully Deployed. I have the potential of converting ideas into working products. I am also highly skilled in HTML, CSS, Javascript & React. I have special interests in the field of  Front-end technology, Development Languages, Database, Basic design ability, Server & Working with API.",
     para4:
       "I also read some Technical Articles during my free time on Internet. I am an active Open Source Contributor on GitHub .",
-     para5:"<Hello World/>"
+    para5: "<Hello World/>",
   },
   education: {
     college: {
@@ -93,13 +93,12 @@ export const DETAILS = {
       id: 1,
       title: "AMAZON APP:",
       link: "https://bespoke-phoenix-23072e.netlify.app/",
-      link1:"https://github.com/Kharthie/amazonfrontend",
-      link2:"https://github.com/Kharthie/amazonbackend",
-      image:
-        "https://c.tenor.com/JDPHxCqgEd0AAAAC/amazon.gif",
-  
+      link1: "https://github.com/Kharthie/amazonfrontend",
+      link2: "https://github.com/Kharthie/amazonbackend",
+      image: "https://c.tenor.com/JDPHxCqgEd0AAAAC/amazon.gif",
+
       description: {
-        para1:"USERNAME : username@gmail.com  ,  PASSWORD : password",
+        para1: "USERNAME : username@gmail.com  ,  PASSWORD : password",
         para2:
           "The application is a clone of a Amazon E-commerce website , we can select Product and do all functionalities in Amazon website.",
         para3:
@@ -110,13 +109,13 @@ export const DETAILS = {
       id: 2,
       title: "GMAIL APP:",
       link: "https://famous-pastelito-760eb0.netlify.app/",
-      link1:"https://github.com/Kharthie/gmail-front",
-      link2:"https://github.com/Kharthie/gmailclonebe",
+      link1: "https://github.com/Kharthie/gmail-front",
+      link2: "https://github.com/Kharthie/gmailclonebe",
       image:
         "https://cdn.dribbble.com/users/2113992/screenshots/14510264/gmail_animation.gif",
-  
+
       description: {
-        para1:"USERNAME : username@gmail.com  ,  PASSWORD : password",
+        para1: "USERNAME : username@gmail.com  ,  PASSWORD : password",
         para2:
           "The application is a clone of a G-mail, we can  do all functionalities in Gmail.",
         para3:
@@ -127,13 +126,13 @@ export const DETAILS = {
       id: 3,
       title: "MEMORIES - BLOG APP:",
       link: "https://gentle-raindrop-934e77.netlify.app/",
-      link1:"https://github.com/Kharthie/memoriesfront",
-      link2:"https://github.com/Kharthie/memoriesback",
+      link1: "https://github.com/Kharthie/memoriesfront",
+      link2: "https://github.com/Kharthie/memoriesback",
       image:
         "https://ansarshome.files.wordpress.com/2021/09/d3464a4351fdf340ccb6bb37c281381a.gif",
-  
+
       description: {
-        para1:"USERNAME : username2@gmail.com  ,  PASSWORD : password",
+        para1: "USERNAME : username2@gmail.com  ,  PASSWORD : password",
         para2:
           "The application is like a blogging site , we can post and do all functionalities in Blog website.",
         para3:
@@ -144,13 +143,13 @@ export const DETAILS = {
       id: 4,
       title: "NOTES APP:",
       link: "https://remarkable-empanada-ff9885.netlify.app/",
-      link1:"https://github.com/Kharthie/notefront",
-      link2:"https://github.com/Kharthie/noteback",
+      link1: "https://github.com/Kharthie/notefront",
+      link2: "https://github.com/Kharthie/noteback",
       image:
         "https://www.zohowebstatic.com/sites/default/files/mail/zc-notes-img.gif",
-  
+
       description: {
-        para1:"USERNAME : username1@gmail.com  ,  PASSWORD : password",
+        para1: "USERNAME : username1@gmail.com  ,  PASSWORD : password",
         para2:
           "The application is like a notepad or notes-app. Which can store a information.",
         para3:
@@ -166,7 +165,8 @@ export const DETAILS = {
         {
           id: 1,
           position: "MERN Stack Development;",
-          description: "I am recently completed MERN Stack Development with over 6 months of experience in Javascript, Reactjs, Nodejs, Express.js, MongoDB, HTML, CSS,Bootstrap.",
+          description:
+            "I am recently completed MERN Stack Development with over 6 months of experience in Javascript, Reactjs, Nodejs, Express.js, MongoDB, HTML, CSS,Bootstrap.",
           timeline: "2022 - Present,",
         },
         {
