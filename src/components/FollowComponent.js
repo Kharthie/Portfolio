@@ -15,7 +15,7 @@ class Follow extends Component {
         <div className="container horizontal-links">
           <h4>GitHub</h4>
           <img
-            style={{ width: "35px", height: "35px", margin: "5px" }}
+            style={{ width: "35px", height: "35px", margin: "5px" }} 
             src={this.props.details.profile_links.github.image}
             alt="GitHub"
             onClick={() =>
