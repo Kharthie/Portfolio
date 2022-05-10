@@ -55,6 +55,7 @@ class Projects extends Component {
             <p className="text-justify">{project.description.para1}</p>
             <p className="text-justify">{project.description.para2}</p>
             <p className="text-justify">{project.description.para3}</p>
+            <p className="text-justify">{project.description.para4}</p>
             {/* ←<button
               className="view-projects view-projects--specs"
               style={{ borderRadius: "5px", color: "black" }}
