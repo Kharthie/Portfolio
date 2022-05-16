@@ -5,8 +5,21 @@ import "../css/EducationComponent.css";
 
 class Education extends Component {
   render() {
+    const myStyle = {
+      backgroundImage:
+        "url('https://media.istockphoto.com/photos/business-cards-stock-illustration-picture-id1309884850?b=1&k=20&m=1309884850&s=170667a&w=0&h=OgY9k_oZwDYs8E6gdG-20cmX3Kv_WCDnCqxG9BmCoIs=')",
+      height: "120vh",
+      // marginTop: "-10px",
+      //fontSize: "50px",
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+    };
+
+
     const myProfileDetails = this.props.details;
     return (
+      <>                
+      <div style={myStyle}>
       <section id="education">
         <div className="container">
           <h1 className="text-center">E d u c a t i o n :</h1>
@@ -175,6 +188,8 @@ class Education extends Component {
           src="https://static.wixstatic.com/media/94d288_9e9278611d2f4e2daddeb9b86b2ed08d~mv2.gif"
         ></img> */}
       </section>
+      </div>
+      </>
     );
   }
 }
