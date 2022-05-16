@@ -49,7 +49,7 @@ class Experience extends Component {
     return (
       <section id="experience">
         <div className="container">
-          <h1 className="text-center">E x p e r i e n c e : </h1>
+          <h1 className="text-center">C e r t i f i c a t i o n  : </h1>
           <br />
           <br />
           {experiences}

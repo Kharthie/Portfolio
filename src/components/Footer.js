@@ -71,7 +71,7 @@ class Footer extends Component {
                 />
               </div>
             </div>
-            <div class="progress-3"></div>
+            {/* <div class="progress-3"></div> */}
             <div class="footer-copyright">
               <div class="footer-copyright-wrapper">
                 <p class="footer-copyright-text">

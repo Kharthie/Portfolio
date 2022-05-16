@@ -83,14 +83,14 @@ class Skills extends Component {
                               <div class="progress-line">
                                 <span class="javascript"></span>
                               </div>
-                              <img
+                              {/* <img
                                 style={{
                                   width: "150px",
                                   margin: "10px",
                                   marginLeft: "480px",
                                 }}
                                 src="https://bera-journals.onlinelibrary.wiley.com/ux3/releasedAssets/images/spinner.gif"
-                              ></img>
+                              ></img> */}
                             </div>
                           </div>
                         </div>
