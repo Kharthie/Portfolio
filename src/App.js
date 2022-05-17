@@ -47,7 +47,7 @@ class App extends Component {
                 <span className="hi">ongo-Db ,</span>
                 <br></br>
                 <span className="text-color-main-name2">
-                  <span className="dot">......</span>🟣E
+                  <span className="dot">......</span>🟣E 
                 </span>
                 <span className="hi">xpress , </span>
                <br></br>

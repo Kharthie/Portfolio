@@ -24,19 +24,19 @@ export const DETAILS = {
       "I am a skilled MERN Stack  Developer with 20+ Mini-Projects successfully Deployed. I have the potential of converting ideas into working products. I am also highly skilled in HTML, CSS, Javascript & React. I have special interests in the field of  Front-end technology, Development Languages, Database, Basic design ability, Server & Working with API.",
     para4:
       "I also read some Technical Articles during my free time on Internet. I am an active Open Source Contributor on GitHub .",
-    para5: "<Hello World/>",
+    para5: "</Hello World>",
   },
   education: {
     college: {
       name: "S.R.V Engineering College",
-      course: "B.E-Electronics & communication  Engineering",
-      grade: ">8.5",
+      course: "B.E - Electronics & communication  Engineering",
+      grade: "8.5",
       timeline: "2017-2021",
       image: "assets/images/college.jpg",
     },
     higher_secondary_school: {
       name: "Sri Bharathidasan Matric Hr Sec School",
-      course: "Bio-Maths",
+      course: "Bio - Maths",
       grade: "87.2 %",
       timeline: "2016-2017",
       image: "assets/images/high_sec_school.jpg",

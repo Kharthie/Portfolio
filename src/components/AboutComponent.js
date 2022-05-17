@@ -42,10 +42,14 @@ class About extends Component {
               </div>
               <br />
               <h5>{this.props.details.about_me.para1}</h5>
+              <br></br>
               <p>{this.props.details.about_me.para2}</p>
+              <br></br>
               <p>{this.props.details.about_me.para3}</p>
+              <br></br>
               <p>{this.props.details.about_me.para4}</p>
-              <p>{this.props.details.about_me.para5}</p>
+              <br></br>
+             <h5> <p>{this.props.details.about_me.para5}</p></h5>
             </motion.div>
           </div>
         </div>
