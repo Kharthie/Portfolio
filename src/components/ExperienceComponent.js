@@ -3,6 +3,7 @@ import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import "../css/ExperienceComponent.css";
 import { Card, CardHeader } from "@material-ui/core";
+import { Zoom } from "react-reveal";
 
 class Experience extends Component {
   render() {
@@ -17,6 +18,7 @@ class Experience extends Component {
                 backgroundColor: "#27292d",
               }}
             >
+              <Zoom top>
               <CardHeader
                 title={
                   <Typography variant="h4" gutterBottom>
@@ -24,6 +26,7 @@ class Experience extends Component {
                   </Typography>
                 }
               />
+              
               <CardContent>
                 {experience.positions.map((position) => {
                   return (
@@ -40,6 +43,7 @@ class Experience extends Component {
                   );
                 })}
               </CardContent>
+              </Zoom>
             </Card>
           </div>
         </>

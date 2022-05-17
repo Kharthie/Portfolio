@@ -2,6 +2,7 @@ import { Component } from "react";
 import "../css/AboutComponent.css";
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@material-ui/core";
+import { Bounce, Fade ,Flip } from "react-reveal";
 
 class About extends Component {
   constructor(props) {
@@ -11,6 +12,8 @@ class About extends Component {
 
   render() {
     return (
+    <>
+
       <section id="about">
         <div className="container">
           <div className="row">
@@ -41,6 +44,7 @@ class About extends Component {
                 <h1>About Me...,</h1>
               </div>
               <br />
+              <Bounce right>
               <h5>{this.props.details.about_me.para1}</h5>
               <br></br>
               <p>{this.props.details.about_me.para2}</p>
@@ -50,6 +54,7 @@ class About extends Component {
               <p>{this.props.details.about_me.para4}</p>
               <br></br>
              <h5> <p>{this.props.details.about_me.para5}</p></h5>
+             </Bounce>
             </motion.div>
           </div>
         </div>
@@ -60,6 +65,7 @@ class About extends Component {
               marginTop: "40px",
             }}
           >
+            
             <motion.div
               className="col-12 col-md-4"
               initial={{ y: 50 }}
@@ -73,6 +79,7 @@ class About extends Component {
                   backgroundColor: "#27292d",
                 }}
               >
+                <Fade left>
                 <CardContent>
                   <a style={{ color: "white", textDecoration: "none" }}>
                     <p
@@ -90,9 +97,10 @@ class About extends Component {
                     </p>
                   </a>
                 </CardContent>
+                </Fade>
               </Card>
             </motion.div>
-
+           
             <motion.div
               className="col-12 col-md-4"
               initial={{ y: 50 }}
@@ -109,6 +117,7 @@ class About extends Component {
                   backgroundColor: "#27292d",
                 }}
               >
+               <Flip left>
                 <CardContent>
                   <a style={{ color: "white", textDecoration: "none" }}>
                     <p
@@ -142,6 +151,7 @@ class About extends Component {
                     </a> */}
                   </a>
                 </CardContent>
+                </Flip>
               </Card>
             </motion.div>
 
@@ -161,6 +171,7 @@ class About extends Component {
                   backgroundColor: "#27292d",
                 }}
               >
+                <Fade right>
                 <CardContent>
                   <a style={{ color: "white", textDecoration: "none" }}>
                     <p
@@ -176,11 +187,13 @@ class About extends Component {
                     </p>
                   </a>
                 </CardContent>
+                </Fade>
               </Card>
             </motion.div>
           </div>
         </div>
       </section>
+      </>
     );
   }
 }

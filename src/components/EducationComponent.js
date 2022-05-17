@@ -2,6 +2,7 @@ import { Card, CardHeader, CardMedia, Typography } from "@material-ui/core";
 import CardContent from "@material-ui/core/CardContent";
 import { Component } from "react";
 import "../css/EducationComponent.css";
+import { Flip } from "react-reveal";
 
 class Education extends Component {
   render() {
@@ -35,6 +36,7 @@ class Education extends Component {
                   backgroundColor: "rgb(46, 47, 52)",
                 }}
               >
+                 <Flip left>
                 <CardHeader
                   style={{ color: "white" }}
                   className="text-center"
@@ -61,6 +63,7 @@ class Education extends Component {
                   }}
                   src="https://i.pinimg.com/originals/b8/51/5b/b8515b3a98b5cd2250448b32b794c2b4.gif"
                 ></img>
+                 
                 <CardContent>
                   <p>
                     <b>Course : </b>
@@ -75,6 +78,7 @@ class Education extends Component {
                     {myProfileDetails.education.college.name}
                   </p>
                 </CardContent>
+                </Flip>
               </Card>
             </div>
 
@@ -89,6 +93,7 @@ class Education extends Component {
                   backgroundColor: "rgb(46, 47, 52)",
                 }}
               >
+                <Flip top>
                 <CardHeader
                   className="text-center"
                   title="Higher Secondary School"
@@ -125,6 +130,7 @@ class Education extends Component {
                     {myProfileDetails.education.higher_secondary_school.name}
                   </p>
                 </CardContent>
+                </Flip>
               </Card>
             </div>
 
@@ -139,6 +145,7 @@ class Education extends Component {
                   backgroundColor: "rgb(46, 47, 52)",
                 }}
               >
+                <Flip right>
                 <CardHeader
                   className="text-center"
                   title="Secondary School"
@@ -164,6 +171,7 @@ class Education extends Component {
                   }}
                   src="https://www.pinclipart.com/picdir/big/121-1218826_school-house-clipart-school-clip-art-little-red.png"
                 ></img>
+                
                 <CardContent>
                   <p>
                     <b>CGPA : </b>
@@ -174,6 +182,7 @@ class Education extends Component {
                     {myProfileDetails.education.secondary_school.name}
                   </p>
                 </CardContent>
+                </Flip>
               </Card>
             </div>
           </div>
