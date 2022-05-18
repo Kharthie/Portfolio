@@ -2,7 +2,6 @@ import { Component } from "react";
 import "../css/ProjectComponent.css";
 import { Bounce } from "react-reveal";
 
-
 class Projects extends Component {
   openLink(social) {
     window.open(social.link, "_blank");
@@ -44,23 +43,23 @@ class Projects extends Component {
       return (
         <div key={project.id} className="row" style={{ marginTop: "30px" }}>
           <div className="col-12 col-sm-6" style={{ textAlign: "center" }}>
-          <Bounce left>
-            <img
-              src={project.image}
-              alt={project.title}
-              width="22%"
-              height="75%"
-              style={{ margin: "auto" }}
-            />
-</Bounce>
+            <Bounce left>
+              <img
+                src={project.image}
+                alt={project.title}
+                width="22%"
+                height="75%"
+                style={{ margin: "auto" }}
+              />
+            </Bounce>
           </div>
           <div className="col-12 col-sm-6">
             <Bounce right>
-            <h4>{project.title}</h4>
-            <p className="text-justify">{project.description.para1}</p>
-            <p className="text-justify">{project.description.para2}</p>
-            <p className="text-justify">{project.description.para3}</p>
-            <p className="text-justify">{project.description.para4}</p>
+              <h4>{project.title}</h4>
+              <p className="text-justify">{project.description.para1}</p>
+              <p className="text-justify">{project.description.para2}</p>
+              <p className="text-justify">{project.description.para3}</p>
+              <p className="text-justify">{project.description.para4}</p>
             </Bounce>
             {/* ←<button
               className="view-projects view-projects--specs"

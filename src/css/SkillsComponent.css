@@ -115,11 +115,11 @@ h2.programas {
   background-color: lightgreen;
 }
 .progress-line .css {
-  width: 90%;
+  width: 95%;
   background-color: lightsalmon;
 }
 .progress-line .mongo {
-  width: 90%;
+  width: 85%;
   background-color: lightblue;
 }
 .progress-line .javascript {
@@ -127,13 +127,14 @@ h2.programas {
   background-color: lightseagreen;
 }
 .progress-line .node {
-  width: 90%;
+  width: 85%;
   background-color: burlywood;
 }
 .progress-line .c {
-  width: 90%;
+  width: 80%;
   background-color: #ec0aa1;
 }
+
 
 .bar .progress-line span::before {
   position: absolute;
@@ -166,19 +167,19 @@ h2.programas {
   content: "90%";
 }
 .progress-line .css::after {
-  content: "90%";
+  content: "95%";
 }
 .progress-line .mongo::after {
-  content: "90%";
+  content: "85%";
 }
 .progress-line .javascript::after {
   content: "90%";
 }
 .progress-line .node::after {
-  content: "90%";
+  content: "85%";
 }
 .progress-line .c::after {
-  content: "90%";
+  content: "80%";
 }
 
 /* ////........Media Query........//// */

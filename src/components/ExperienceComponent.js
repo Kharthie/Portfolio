@@ -19,30 +19,32 @@ class Experience extends Component {
               }}
             >
               <Zoom top>
-              <CardHeader
-                title={
-                  <Typography variant="h4" gutterBottom>
-                    {experience.company}
-                  </Typography>
-                }
-              />
-              
-              <CardContent>
-                {experience.positions.map((position) => {
-                  return (
-                    <div key={position.id}>
-                      <Typography variant="h5">{position.position}</Typography>
-                      <Typography className="pos">
-                        {position.timeline}
-                      </Typography>
-                      <Typography variant="body2">
-                        {position.description}
-                      </Typography>
-                      <br />
-                    </div>
-                  );
-                })}
-              </CardContent>
+                <CardHeader
+                  title={
+                    <Typography variant="h4" gutterBottom>
+                      {experience.company}
+                    </Typography>
+                  }
+                />
+
+                <CardContent>
+                  {experience.positions.map((position) => {
+                    return (
+                      <div key={position.id}>
+                        <Typography variant="h5">
+                          {position.position}
+                        </Typography>
+                        <Typography className="pos">
+                          {position.timeline}
+                        </Typography>
+                        <Typography variant="body2">
+                          {position.description}
+                        </Typography>
+                        <br />
+                      </div>
+                    );
+                  })}
+                </CardContent>
               </Zoom>
             </Card>
           </div>
@@ -53,7 +55,7 @@ class Experience extends Component {
     return (
       <section id="experience">
         <div className="container">
-          <h1 className="text-center">C e r t i f i c a t i o n  : </h1>
+          <h1 className="text-center">C e r t i f i c a t i o n : </h1>
           <br />
           <br />
           {experiences}

@@ -147,7 +147,7 @@ class Main extends Component {
               <br />
               <br />
               <p> */}
-                {/* <motion.span
+          {/* <motion.span
                   animate={{ scale: 1.15 }}
                   transition={{ delay: 1.4, duration: 1 }}
                   onClick={this.scrollToAbout}
@@ -156,7 +156,7 @@ class Main extends Component {
                   ⮛ K n o w M o r e ⮛
                 </motion.span> */}
 
-              {/* </p>
+          {/* </p>
             </motion.div>
           </motion.section>  */}
           <div ref={this.aboutRef}>
