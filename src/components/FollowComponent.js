@@ -13,7 +13,10 @@ class Follow extends Component {
         </div>
         <br />
         <div className="container horizontal-links">
-          <h4>GitHub</h4>
+          <a href="https://github.com/Kharthie" target="_blank">
+            {" "}
+            <h4>GitHub</h4>
+          </a>
           <img
             style={{
               width: "35px",
@@ -43,7 +46,10 @@ class Follow extends Component {
             }
           />
           <br></br>
-          <h4>linkedin</h4>
+
+          <a href="https://www.linkedin.com/in/kharthie-ramakrishnan-914589220/" target="_blank">
+            <h4>linkedin</h4>
+          </a>
         </div>
       </section>
     );
