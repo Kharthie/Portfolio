@@ -6,7 +6,20 @@ class Follow extends Component {
     window.open(social.link, "_blank");
   }
   render() {
+    const myStyle = {
+      backgroundImage:
+        "url('https://images.unsplash.com/photo-1531265726475-52ad60219627?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500')",
+      height: "60vh",
+      // marginTop: "-10px",
+      //fontSize: "50px",
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+    };
     return (
+      <>
+      <div style={myStyle}>
+
+      
       <section id="follow">
         <div className="container text-center">
           <h4>V i e w - M y ...,</h4>
@@ -52,6 +65,8 @@ class Follow extends Component {
           </a>
         </div>
       </section>
+      </div>
+      </>
     );
   }
 }

@@ -8,7 +8,7 @@ class Education extends Component {
   render() {
     const myStyle = {
       backgroundImage:
-        "url('https://media.istockphoto.com/photos/business-cards-stock-illustration-picture-id1309884850?b=1&k=20&m=1309884850&s=170667a&w=0&h=OgY9k_oZwDYs8E6gdG-20cmX3Kv_WCDnCqxG9BmCoIs=')",
+        "url('https://images.unsplash.com/photo-1530543787849-128d94430c6b?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870')",
       height: "120vh",
       // marginTop: "-10px",
       //fontSize: "50px",
