@@ -7,9 +7,19 @@ import { Zoom } from "react-reveal";
 
 class Experience extends Component {
   render() {
+    // const myStyle = {
+    //   backgroundImage:
+    //     "url('https://img.freepik.com/free-photo/blue-dark-gradient-texture-wall-background_28629-888.jpg?size=626&ext=jpg&ga=GA1.2.561385715.1648191194')",
+    //   height: "110vh",
+    //   // marginTop: "-10px",
+    //   //fontSize: "50px",
+    //   backgroundSize: "cover",
+    //   backgroundRepeat: "no-repeat",
+    // };
     const experiences = this.props.details.experiences.map((experience) => {
       return (
         <>
+        
           <div key={experience.id} className="row" style={{ padding: "10px" }}>
             <Card
               className="root"
@@ -53,6 +63,10 @@ class Experience extends Component {
     });
 
     return (
+      <>
+      {/* <div style={myStyle}> */}
+
+     
       <section id="experience">
         <div className="container">
           <h1 className="text-center">C e r t i f i c a t i o n : </h1>
@@ -61,6 +75,8 @@ class Experience extends Component {
           {experiences}
         </div>
       </section>
+      {/* </div> */}
+      </>
     );
   }
 }

@@ -8,7 +8,7 @@ class Follow extends Component {
   render() {
     const myStyle = {
       backgroundImage:
-        "url('https://images.unsplash.com/photo-1531265726475-52ad60219627?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500')",
+        "url('https://img.freepik.com/free-vector/gradient-dynamic-blue-lines-background_23-2148995756.jpg?size=626&ext=jpg&ga=GA1.2.561385715.1648191194')",
       height: "60vh",
       // marginTop: "-10px",
       //fontSize: "50px",
