@@ -2,7 +2,7 @@ import { Card, CardHeader, CardMedia, Typography } from "@material-ui/core";
 import CardContent from "@material-ui/core/CardContent";
 import { Component } from "react";
 import "../css/EducationComponent.css";
-import { Flip, Slide } from "react-reveal";
+import { Flip, Slide, Bounce } from "react-reveal";
 
 class Education extends Component {
   render() {
@@ -19,10 +19,13 @@ class Education extends Component {
     const myProfileDetails = this.props.details;
     return (
       <>
-        <div style={myStyle}>
+        <div style={myStyle}> 
           <section id="education">
             <div className="container">
-              <h1 className="text-center">E d u c a t i o n :</h1>
+              <Bounce top>
+                <h1 className="text-center">E d u c a t i o n :</h1>
+              </Bounce>
+
               <div className="row" style={{ marginTop: "30px" }}>
                 <div className="col-12 col-md-4 edu-tile">
                   <Card

@@ -99,6 +99,7 @@ class Projects extends Component {
             </button>
             →
           </div>
+          
         </div>
       );
     });
@@ -107,7 +108,10 @@ class Projects extends Component {
       <>
         <section id="projects">
           <div className="container">
+            <Bounce top>
             <h1 className="text-center1">P r o j e c t s :</h1>
+            </Bounce>
+            
 
             {projects}
             <div className="text-center">

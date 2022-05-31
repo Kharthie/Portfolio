@@ -3,7 +3,7 @@ import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import "../css/ExperienceComponent.css";
 import { Card, CardHeader } from "@material-ui/core";
-import { Zoom } from "react-reveal";
+import { Zoom , Bounce } from "react-reveal";
 
 class Experience extends Component {
   render() {
@@ -69,7 +69,10 @@ class Experience extends Component {
      
       <section id="experience">
         <div className="container">
+          <Bounce top>
           <h1 className="text-center">C e r t i f i c a t i o n : </h1>
+          </Bounce>
+          
           <br />
           <br />
           {experiences}

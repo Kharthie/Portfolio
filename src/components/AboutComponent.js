@@ -16,19 +16,21 @@ class About extends Component {
         <section id="about">
           <div className="container">
             <div className="row">
-              <div className="col-12 col-sm-6" style={{ padding: "20px" }}>
-                <figure class="swing">
-                  <motion.img
-                    initial={{ x: "-100vw" }}
-                    animate={{ x: 0 }}
-                    transition={{ delay: 0.5, type: "spring", stiffness: 40 }}
-                    src={this.props.details.profile_image}
-                    alt="Profile"
-                    width="65%"
-                    height="90%"
-                  />
-                </figure>
-              </div>
+              <Fade left>
+                <div className="col-12 col-sm-6" style={{ padding: "20px" }}>
+                  <figure class="swing">
+                    <motion.img
+                      initial={{ x: "-100vw" }}
+                      animate={{ x: 0 }}
+                      transition={{ delay: 0.5, type: "spring", stiffness: 40 }}
+                      src={this.props.details.profile_image}
+                      alt="Profile"
+                      width="65%"
+                      height="90%"
+                    />
+                  </figure>
+                </div>
+              </Fade>
               <motion.div
                 className="col-12 col-sm-6"
                 style={{
@@ -40,7 +42,9 @@ class About extends Component {
               >
                 <div className="aboutme">
                   {" "}
-                  <h1>About Me...,</h1>
+                  <Bounce right>
+                    <h1>About Me...,</h1>
+                  </Bounce>
                 </div>
                 <br />
                 <Bounce right>

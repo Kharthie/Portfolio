@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "../css/SkillsComponent.css";
+import { Bounce } from "react-reveal";
 
 class Skills extends Component {
   render() {
@@ -17,7 +18,8 @@ class Skills extends Component {
       <>
         <section id="skills">
           <div className="container">
-            <h1 className="text-center">S k i l l s : </h1>
+            <Bounce top><h1 className="text-center">S k i l l s : </h1></Bounce>
+            
             <div className="row" style={{ marginTop: "30px" }}>
               {skills}
               <div class="skills">

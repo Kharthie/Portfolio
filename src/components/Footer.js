@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "../css/Footer.css";
+import { Fade } from "react-reveal";
 
 class Footer extends Component {
   render() {
@@ -38,15 +39,18 @@ class Footer extends Component {
               </div>
 
               <div class="footer-content-column">
-                <img
-                  style={{
-                    width: "350px",
-                    height: "250px",
-                    margin: "0px",
-                    marginLeft: "0px",
-                  }}
-                  src="https://i.pinimg.com/originals/6d/7e/e7/6d7ee70638fe410dcfea433715eb7491.gif"
-                ></img>
+                <Fade left>
+                  <img
+                    style={{
+                      width: "350px",
+                      height: "250px",
+                      margin: "0px",
+                      marginLeft: "0px",
+                    }}
+                    src="https://i.pinimg.com/originals/6d/7e/e7/6d7ee70638fe410dcfea433715eb7491.gif"
+                  ></img>
+                </Fade>
+
                 <div class="footer-call-to-action"></div>
                 <div class="footer-call-to-action">
                   <h3 class="footer-call-to-action-title">
@@ -59,16 +63,17 @@ class Footer extends Component {
                     </a>
                   </p>
                 </div>
-
-                <img
-                  style={{
-                    width: "35px",
-                    height: "35px",
-                    margin: "10px",
-                    marginLeft: "60px",
-                  }}
-                  src={this.props.details.profile_links.email.image}
-                />
+                <Fade right>
+                  <img
+                    style={{
+                      width: "35px",
+                      height: "35px",
+                      margin: "10px",
+                      marginLeft: "60px",
+                    }}
+                    src={this.props.details.profile_links.email.image}
+                  />
+                </Fade>
               </div>
             </div>
             {/* <div class="progress-3"></div> */}
