@@ -19,7 +19,7 @@ class Education extends Component {
     const myProfileDetails = this.props.details;
     return (
       <>
-        <div style={myStyle}> 
+        <div style={myStyle}>
           <section id="education">
             <div className="container">
               <Bounce top>
@@ -28,28 +28,29 @@ class Education extends Component {
 
               <div className="row" style={{ marginTop: "30px" }}>
                 <div className="col-12 col-md-4 edu-tile">
-                  <Card
-                    className="card-style"
-                    variant="outlined"
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      flexDirection: "column",
-                      backgroundColor: "rgb(46, 47, 52)",
-                    }}
-                  >
-                    <Slide left>
-                      <CardHeader
-                        style={{ color: "white" }}
-                        className="text-center"
-                        title="Graduation "
-                        subheader={
-                          <Typography style={{ color: "white" }}>
-                            {myProfileDetails.education.college.timeline}
-                          </Typography>
-                        }
-                      />
-                      {/* <CardMedia
+                  <Slide left>
+                    <Card
+                      className="card-style"
+                      variant="outlined"
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        flexDirection: "column",
+                        backgroundColor: "rgb(46, 47, 52)",
+                      }}
+                    >
+                      <Slide left>
+                        <CardHeader
+                          style={{ color: "white" }}
+                          className="text-center"
+                          title="Graduation "
+                          subheader={
+                            <Typography style={{ color: "white" }}>
+                              {myProfileDetails.education.college.timeline}
+                            </Typography>
+                          }
+                        />
+                        {/* <CardMedia
                   component="img"
                   style={{
                     height: "60px",
@@ -58,118 +59,122 @@ class Education extends Component {
                   image="/assets/images/college.png"
                   alt="Graduation"
                 /> */}
-                      <img
-                        style={{
-                          height: "60px",
-                          width: "60px",
-                        }}
-                        src="https://i.pinimg.com/originals/b8/51/5b/b8515b3a98b5cd2250448b32b794c2b4.gif"
-                      ></img>
+                        <img
+                          style={{
+                            height: "60px",
+                            width: "60px",
+                          }}
+                          src="https://i.pinimg.com/originals/b8/51/5b/b8515b3a98b5cd2250448b32b794c2b4.gif"
+                        ></img>
 
-                      <CardContent>
-                        <p>
-                          <b>Course : </b>
-                          {myProfileDetails.education.college.course}
-                        </p>
-                        <p>
-                          <b>CGPA : </b>
-                          {myProfileDetails.education.college.grade}
-                        </p>
-                        <p>
-                          <b>College Name : </b>
-                          {myProfileDetails.education.college.name}
-                        </p>
-                      </CardContent>
-                    </Slide>
-                  </Card>
+                        <CardContent>
+                          <p>
+                            <b>Course : </b>
+                            {myProfileDetails.education.college.course}
+                          </p>
+                          <p>
+                            <b>CGPA : </b>
+                            {myProfileDetails.education.college.grade}
+                          </p>
+                          <p>
+                            <b>College Name : </b>
+                            {myProfileDetails.education.college.name}
+                          </p>
+                        </CardContent>
+                      </Slide>
+                    </Card>
+                  </Slide>
                 </div>
 
                 <div className="col-12 col-md-4 edu-tile">
-                  <Card
-                    className="card-style"
-                    variant="outlined"
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      flexDirection: "column",
-                      backgroundColor: "rgb(46, 47, 52)",
-                    }}
-                  >
-                    <Flip top>
-                      <CardHeader
-                        className="text-center"
-                        title="Higher Secondary School"
-                        subheader={
-                          <Typography style={{ color: "white" }}>
+                  <Flip top>
+                    <Card
+                      className="card-style"
+                      variant="outlined"
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        flexDirection: "column",
+                        backgroundColor: "rgb(46, 47, 52)",
+                      }}
+                    >
+                      <Flip top>
+                        <CardHeader
+                          className="text-center"
+                          title="Higher Secondary School"
+                          subheader={
+                            <Typography style={{ color: "white" }}>
+                              {
+                                myProfileDetails.education
+                                  .higher_secondary_school.timeline
+                              }
+                            </Typography>
+                          }
+                        />
+                        <CardMedia
+                          component="img"
+                          style={{
+                            height: "60px",
+                            width: "60px",
+                          }}
+                          image="/assets/images/school.png"
+                          alt="Graduation"
+                        />
+
+                        <CardContent>
+                          <p>
+                            <b>Course : </b>
                             {
                               myProfileDetails.education.higher_secondary_school
-                                .timeline
+                                .course
                             }
-                          </Typography>
-                        }
-                      />
-                      <CardMedia
-                        component="img"
-                        style={{
-                          height: "60px",
-                          width: "60px",
-                        }}
-                        image="/assets/images/school.png"
-                        alt="Graduation"
-                      />
-
-                      <CardContent>
-                        <p>
-                          <b>Course : </b>
-                          {
-                            myProfileDetails.education.higher_secondary_school
-                              .course
-                          }
-                        </p>
-                        <p>
-                          <b>Percentage : </b>
-                          {
-                            myProfileDetails.education.higher_secondary_school
-                              .grade
-                          }
-                        </p>
-                        <p>
-                          <b>School Name : </b>
-                          {
-                            myProfileDetails.education.higher_secondary_school
-                              .name
-                          }
-                        </p>
-                      </CardContent>
-                    </Flip>
-                  </Card>
+                          </p>
+                          <p>
+                            <b>CGPA : </b>
+                            {
+                              myProfileDetails.education.higher_secondary_school
+                                .grade
+                            }
+                          </p>
+                          <p>
+                            <b>School Name : </b>
+                            {
+                              myProfileDetails.education.higher_secondary_school
+                                .name
+                            }
+                          </p>
+                        </CardContent>
+                      </Flip>
+                    </Card>
+                  </Flip>
                 </div>
 
                 <div className="col-12 col-md-4 edu-tile">
-                  <Card
-                    className="card-style"
-                    variant="outlined"
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      flexDirection: "column",
-                      backgroundColor: "rgb(46, 47, 52)",
-                    }}
-                  >
-                    <Slide right>
-                      <CardHeader
-                        className="text-center"
-                        title="Secondary School"
-                        subheader={
-                          <Typography style={{ color: "white" }}>
-                            {
-                              myProfileDetails.education.secondary_school
-                                .timeline
-                            }
-                          </Typography>
-                        }
-                      />
-                      {/* <CardMedia
+                  <Slide right>
+                    <Card
+                      className="card-style"
+                      variant="outlined"
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        flexDirection: "column",
+                        backgroundColor: "rgb(46, 47, 52)",
+                      }}
+                    >
+                      <Slide right>
+                        <CardHeader
+                          className="text-center"
+                          title="Secondary School"
+                          subheader={
+                            <Typography style={{ color: "white" }}>
+                              {
+                                myProfileDetails.education.secondary_school
+                                  .timeline
+                              }
+                            </Typography>
+                          }
+                        />
+                        {/* <CardMedia
                   component="img"
                   style={{
                     height: "60px",
@@ -178,26 +183,27 @@ class Education extends Component {
                   image="/assets/images/school.png"
                   alt="Graduation"
                 /> */}
-                      <img
-                        style={{
-                          height: "60px",
-                          width: "60px",
-                        }}
-                        src="https://www.pinclipart.com/picdir/big/121-1218826_school-house-clipart-school-clip-art-little-red.png"
-                      ></img>
+                        <img
+                          style={{
+                            height: "60px",
+                            width: "60px",
+                          }}
+                          src="https://www.pinclipart.com/picdir/big/121-1218826_school-house-clipart-school-clip-art-little-red.png"
+                        ></img>
 
-                      <CardContent>
-                        <p>
-                          <b>CGPA : </b>
-                          {myProfileDetails.education.secondary_school.grade}
-                        </p>
-                        <p>
-                          <b>School Name : </b>
-                          {myProfileDetails.education.secondary_school.name}
-                        </p>
-                      </CardContent>
-                    </Slide>
-                  </Card>
+                        <CardContent>
+                          <p>
+                            <b>CGPA : </b>
+                            {myProfileDetails.education.secondary_school.grade}
+                          </p>
+                          <p>
+                            <b>School Name : </b>
+                            {myProfileDetails.education.secondary_school.name}
+                          </p>
+                        </CardContent>
+                      </Slide>
+                    </Card>
+                  </Slide>
                 </div>
               </div>
             </div>

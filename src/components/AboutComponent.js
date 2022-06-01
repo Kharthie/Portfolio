@@ -77,14 +77,14 @@ class About extends Component {
                 animate={{ y: 0 }}
                 transition={{ delay: 0.5, type: "spring", stiffness: 50 }}
               >
-                <Card
-                  className="about-card-style"
-                  variant="outlined"
-                  style={{
-                    backgroundColor: "#27292d",
-                  }}
-                >
-                  <Fade left>
+                <Fade left>
+                  <Card
+                    className="about-card-style"
+                    variant="outlined"
+                    style={{
+                      backgroundColor: "#27292d",
+                    }}
+                  >
                     <CardContent>
                       <a style={{ color: "white", textDecoration: "none" }}>
                         <p
@@ -102,8 +102,8 @@ class About extends Component {
                         </p>
                       </a>
                     </CardContent>
-                  </Fade>
-                </Card>
+                  </Card>
+                </Fade>
               </motion.div>
 
               <motion.div
@@ -112,17 +112,17 @@ class About extends Component {
                 animate={{ y: 0 }}
                 transition={{ delay: 0.5, type: "spring", stiffness: 50 }}
               >
-                <Card
-                  className="about-card-style"
-                  variant="outlined"
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    flexDirection: "column",
-                    backgroundColor: "#27292d",
-                  }}
-                >
-                  <Flip left>
+                <Flip top>
+                  <Card
+                    className="about-card-style"
+                    variant="outlined"
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      flexDirection: "column",
+                      backgroundColor: "#27292d",
+                    }}
+                  >
                     <CardContent>
                       <a style={{ color: "white", textDecoration: "none" }}>
                         <p
@@ -156,8 +156,8 @@ class About extends Component {
                     </a> */}
                       </a>
                     </CardContent>
-                  </Flip>
-                </Card>
+                  </Card>
+                </Flip>
               </motion.div>
 
               <motion.div
@@ -166,17 +166,17 @@ class About extends Component {
                 animate={{ y: 0 }}
                 transition={{ delay: 0.5, type: "spring", stiffness: 50 }}
               >
-                <Card
-                  className="about-card-style"
-                  variant="outlined"
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    flexDirection: "column",
-                    backgroundColor: "#27292d",
-                  }}
-                >
-                  <Fade right>
+                <Fade right>
+                  <Card
+                    className="about-card-style"
+                    variant="outlined"
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      flexDirection: "column",
+                      backgroundColor: "#27292d",
+                    }}
+                  >
                     <CardContent>
                       <a style={{ color: "white", textDecoration: "none" }}>
                         <p
@@ -192,8 +192,8 @@ class About extends Component {
                         </p>
                       </a>
                     </CardContent>
-                  </Fade>
-                </Card>
+                  </Card>
+                </Fade>
               </motion.div>
             </div>
           </div>

@@ -37,7 +37,7 @@ export const DETAILS = {
     higher_secondary_school: {
       name: "Sri Bharathidasan Matric Hr Sec School",
       course: "Bio - Maths",
-      grade: "87.2 %",
+      grade: "72.2",
       timeline: "2016-2017",
       image: "assets/images/high_sec_school.jpg",
     },

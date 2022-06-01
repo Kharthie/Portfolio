@@ -21,6 +21,7 @@ class Experience extends Component {
         <>
         
           <div key={experience.id} className="row" style={{ padding: "10px" }}>
+          <Zoom top>
             <Card
               className="root"
               variant="outlined"
@@ -31,7 +32,7 @@ class Experience extends Component {
               <Zoom top>
                 <CardHeader
                   title={
-                    <Typography variant="h4" gutterBottom>
+                    <Typography variant="h4" gutterBottom> 
                       {experience.company}
                     </Typography>
                   }
@@ -57,6 +58,7 @@ class Experience extends Component {
                 </CardContent>
               </Zoom>
             </Card>
+            </Zoom>
           </div>
         </>
       );
