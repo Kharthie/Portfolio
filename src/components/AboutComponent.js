@@ -95,7 +95,7 @@ class About extends Component {
                           }}
                         >
                           <b style={{ fontSize: "30px" }}>
-                            5+ Projects & 20+ Mini Projects
+                            5+ Projects & 25+ Mini Projects
                           </b>
                           <br />
                           are Successfully Deployed.

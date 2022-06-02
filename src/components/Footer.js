@@ -21,21 +21,7 @@ class Footer extends Component {
             </svg>
             <div class="footer-content">
               <div class="footer-content-column">
-                <div class="footer-logo">
-                  <a class="footer-logo-link">
-                    <span class="hidden-link-text"></span>
-                  </a>
-                </div>
-                <div class="footer-menu">
-                  <h1 class="footer-menu-name"></h1>
-                  <ul id="menu-get-started" class="footer-menu-list">
-                    <li
-                      id="menu-item-173730"
-                      class="menu-item menu-item-type-post_type menu-item-object-product menu-item-173730"
-                      className="resume"
-                    ></li>
-                  </ul>
-                </div>
+                <div class="footer-menu"></div>
               </div>
 
               <div class="footer-content-column">
@@ -53,10 +39,7 @@ class Footer extends Component {
 
                 <div class="footer-call-to-action"></div>
                 <div class="footer-call-to-action">
-                  <h3 class="footer-call-to-action-title">
-                    {" "}
-                    Contact Me At...,
-                  </h3>
+                  <h3 class="footer-call-to-action-title">Contact Me At...,</h3>
                   <p class="footer-call-to-action-link-wrapper">
                     <a href="https://www.google.com/gmail/" target="_blank">
                       kharthieramakrishnan@gmail.com{" "}
