@@ -34,7 +34,7 @@ class Experience extends Component {
                   title={
                     <Typography variant="h4" gutterBottom> 
                       {experience.company}
-                      <a href="https://www.guvi.in/verify-certificate?id=4566O31R815k364CgQ" target="_blank">My Full Stack Development Certificate</a>
+                      <a href="https://www.guvi.in/verify-certificate?id=4566O31R815k364CgQ" target="_blank">My-Full-Stack-Development-Certificate:</a>
                     </Typography>
                   }
                 />

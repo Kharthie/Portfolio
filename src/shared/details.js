@@ -170,7 +170,7 @@ export const DETAILS = {
           id: 1,
           position: "MERN Stack Development;",
           description:
-            "I am recently completed MERN Stack Development with over 6 months of experience in Javascript, Reactjs, Nodejs, Express.js, MongoDB, HTML, CSS,Bootstrap.",
+            "I am recently completed MERN Stack Development & I'm familiar with Javascript, Reactjs, Nodejs, Express.js, MongoDB, HTML, CSS, Bootstrap etc...",
           timeline: "2022 - Present,",
         },
         {
