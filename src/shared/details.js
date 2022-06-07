@@ -37,7 +37,7 @@ export const DETAILS = {
     higher_secondary_school: {
       name: "Sri Bharathidasan Matric Hr Sec School",
       course: "Bio - Maths",
-      grade: "72.2",
+      grade: "62.2",
       timeline: "2016-2017",
       image: "assets/images/high_sec_school.jpg",
     },
@@ -164,7 +164,7 @@ export const DETAILS = {
   experiences: [
     {
       id: 1,
-      company: "Fresher:",
+      company: "",
       positions: [
         {
           id: 1,

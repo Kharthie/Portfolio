@@ -34,6 +34,7 @@ class Experience extends Component {
                   title={
                     <Typography variant="h4" gutterBottom> 
                       {experience.company}
+                      <a href="https://www.guvi.in/verify-certificate?id=4566O31R815k364CgQ" target="_blank">My Full Stack Development Certificate</a>
                     </Typography>
                   }
                 />
@@ -52,6 +53,7 @@ class Experience extends Component {
                           {position.description}
                         </Typography>
                         <br />
+                        
                       </div>
                     );
                   })}
@@ -78,7 +80,9 @@ class Experience extends Component {
           <br />
           <br />
           {experiences}
+         
         </div>
+       
       </section>
       {/* </div> */}
       </>
