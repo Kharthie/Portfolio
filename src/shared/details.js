@@ -91,7 +91,7 @@ export const DETAILS = {
   projects: [
     {
       id: 1,
-      title: "AMAZON APP:",
+      title: "AMAZON APP :",
       link: "https://bespoke-phoenix-23072e.netlify.app/",
       link1: "https://github.com/Kharthie/amazonfrontend",
       link2: "https://github.com/Kharthie/amazonbackend",
@@ -108,7 +108,7 @@ export const DETAILS = {
     },
     {
       id: 2,
-      title: "GMAIL APP:",
+      title: "GMAIL APP :",
       link: "https://famous-pastelito-760eb0.netlify.app/",
       link1: "https://github.com/Kharthie/gmail-front",
       link2: "https://github.com/Kharthie/gmailclonebe",
@@ -126,7 +126,7 @@ export const DETAILS = {
     },
     {
       id: 3,
-      title: "MEMORIES - BLOG APP:",
+      title: "MEMORIES - BLOG APP :",
       link: "https://gentle-raindrop-934e77.netlify.app/",
       link1: "https://github.com/Kharthie/memoriesfront",
       link2: "https://github.com/Kharthie/memoriesback",
@@ -144,7 +144,7 @@ export const DETAILS = {
     },
     {
       id: 4,
-      title: "NOTES APP:",
+      title: "NOTES APP :",
       link: "https://remarkable-empanada-ff9885.netlify.app/",
       link1: "https://github.com/Kharthie/notefront",
       link2: "https://github.com/Kharthie/noteback",

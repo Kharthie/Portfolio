@@ -90,7 +90,7 @@ h2.programas {
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
-  animation: animate 30s cubic-bezier(1, 0, 0.5, 1) forwards;
+  animation: animate 40s cubic-bezier(1, 0, 0.5, 1) forwards; 
 }
 
 .bar .progress-line span {
